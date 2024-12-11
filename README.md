@@ -72,7 +72,6 @@ cat\
 | https://docs.google.com/spreadsheets/u/0/export?id=1HSqMhe0e7nmwf3rpgfIp0utSl4GL8FRCAdj_oeq7BDQ&gid=0&format=csv | http://purl.org/pav/hasVersion | hash://sha256/f0a0837ee4949eac8105bef40825afdfda4b12a84c09086f7c03783822e810e2 | urn:uuid:4497ea01-0f3d-45ad-9ef1-9ea4fa74eb0c |
 | https://docs.google.com/spreadsheets/u/0/export?id=1HSqMhe0e7nmwf3rpgfIp0utSl4GL8FRCAdj_oeq7BDQ&gid=0&format=tsv | http://purl.org/pav/hasVersion | hash://sha256/a2538e6e3487cf2c16a032a5d03eb8b145b02ef85dc8ad2da2bbd1d22004ce70 | urn:uuid:7c5db6fc-6f18-4235-8a2d-036c78575262 |
 | https://docs.google.com/spreadsheets/u/0/export?id=1HSqMhe0e7nmwf3rpgfIp0utSl4GL8FRCAdj_oeq7BDQ&format=zip | http://purl.org/pav/hasVersion | hash://sha256/ccc4f03575c27be044486f12ad1b3ca31178d0e89d4937541ab70198cece8809 | urn:uuid:ed4ba325-058a-47da-aa0c-eae8b5253d7d |
-```
 
 or formatted vertically for easy scrolling using
 
