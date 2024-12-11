@@ -73,3 +73,50 @@ cat\
 | https://docs.google.com/spreadsheets/u/0/export?id=1HSqMhe0e7nmwf3rpgfIp0utSl4GL8FRCAdj_oeq7BDQ&gid=0&format=tsv | http://purl.org/pav/hasVersion | hash://sha256/a2538e6e3487cf2c16a032a5d03eb8b145b02ef85dc8ad2da2bbd1d22004ce70 | urn:uuid:7c5db6fc-6f18-4235-8a2d-036c78575262 |
 | https://docs.google.com/spreadsheets/u/0/export?id=1HSqMhe0e7nmwf3rpgfIp0utSl4GL8FRCAdj_oeq7BDQ&format=zip | http://purl.org/pav/hasVersion | hash://sha256/ccc4f03575c27be044486f12ad1b3ca31178d0e89d4937541ab70198cece8809 | urn:uuid:ed4ba325-058a-47da-aa0c-eae8b5253d7d |
 ```
+
+or formatted vertically for easy scrolling using
+
+```
+cat\
+ <(echo -e "alias\trelation\tcontent id\tactivity uuid")\
+ <(preston alias -l tsv)\
+ | mlr --itsvlite --oxtab cat
+```
+
+
+```
+alias         https://docs.google.com/spreadsheets/d/1HSqMhe0e7nmwf3rpgfIp0utSl4GL8FRCAdj_oeq7BDQ/edit?gid=0#gid=0
+relation      http://purl.org/pav/hasVersion
+content id    hash://sha256/ac738f063270f99f63df6bc038b2c3e60145e68a526f70c4665201e73da3b722
+activity uuid urn:uuid:c90ebdb8-1325-4400-b0d8-bea4482e4e0a
+
+alias         https://docs.google.com/spreadsheets/u/0/export?id=1HSqMhe0e7nmwf3rpgfIp0utSl4GL8FRCAdj_oeq7BDQ&format=xlsx
+relation      http://purl.org/pav/hasVersion
+content id    hash://sha256/b6641c2cb480583a6f1e7fe9dfc204069e8fa9a1a2115cdfc4ea8b250be7a4e5
+activity uuid urn:uuid:d35f2244-8b24-474f-9d6b-6bba615036a8
+
+alias         https://docs.google.com/spreadsheets/u/0/export?id=1HSqMhe0e7nmwf3rpgfIp0utSl4GL8FRCAdj_oeq7BDQ&format=ods
+relation      http://purl.org/pav/hasVersion
+content id    https://deeplinker.bio/.well-known/genid/2d43e768-1749-3ce0-ac6a-5bbbe9638010
+activity uuid urn:uuid:1b1a505f-7858-4508-9472-4dd59fdc87a5
+
+alias         https://docs.google.com/spreadsheets/u/0/export?id=1HSqMhe0e7nmwf3rpgfIp0utSl4GL8FRCAdj_oeq7BDQ&format=pdf
+relation      http://purl.org/pav/hasVersion
+content id    https://deeplinker.bio/.well-known/genid/8f74014a-ce4f-3e01-9dde-cf2dab16ac1d
+activity uuid urn:uuid:4e15c3f1-946c-4801-af70-887495375aa6
+
+alias         https://docs.google.com/spreadsheets/u/0/export?id=1HSqMhe0e7nmwf3rpgfIp0utSl4GL8FRCAdj_oeq7BDQ&gid=0&format=csv
+relation      http://purl.org/pav/hasVersion
+content id    hash://sha256/f0a0837ee4949eac8105bef40825afdfda4b12a84c09086f7c03783822e810e2
+activity uuid urn:uuid:4497ea01-0f3d-45ad-9ef1-9ea4fa74eb0c
+
+alias         https://docs.google.com/spreadsheets/u/0/export?id=1HSqMhe0e7nmwf3rpgfIp0utSl4GL8FRCAdj_oeq7BDQ&gid=0&format=tsv
+relation      http://purl.org/pav/hasVersion
+content id    hash://sha256/a2538e6e3487cf2c16a032a5d03eb8b145b02ef85dc8ad2da2bbd1d22004ce70
+activity uuid urn:uuid:7c5db6fc-6f18-4235-8a2d-036c78575262
+
+alias         https://docs.google.com/spreadsheets/u/0/export?id=1HSqMhe0e7nmwf3rpgfIp0utSl4GL8FRCAdj_oeq7BDQ&format=zip
+relation      http://purl.org/pav/hasVersion
+content id    hash://sha256/ccc4f03575c27be044486f12ad1b3ca31178d0e89d4937541ab70198cece8809
+activity uuid urn:uuid:ed4ba325-058a-47da-aa0c-eae8b5253d7d
+```
