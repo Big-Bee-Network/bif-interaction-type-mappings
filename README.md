@@ -1,8 +1,10 @@
+[![SWH](https://archive.softwareheritage.org/badge/origin/https://github.com/Big-Bee-Network/bif-interaction-type-mappings/)](https://archive.softwareheritage.org/browse/origin/?origin_url=https://github.com/Big-Bee-Network/bif-interaction-type-mappings)
+
 # BIF Interaction Type Mappings 
 
 Millions of species interaction claims are describe in datasets registered with  global and national biodiversity infrastructures like Global Biodversity Information Facility (GBIF, https://gbif.org) and Integrated Digitized Biocollections (iDigBio, https://idigbio.org). 
 
-This dataset is compiled by José Augusto Salim using [Elton](https://globalbioticinteractions.org/elton), [Preston](https://preston.guoda.bio), a version of the [GIB](https://linker.bio/#use-case-3-studying-pine-pests-caused-by-weevils-curculionoidea) dataset, and workflows described in [BIF](https://github.com/big-bee-network/bif) and includes a manually curated list of terms used to describe species interactions in these datasets. 
+This dataset is compiled by José Augusto Salim using [Elton](https://globalbioticinteractions.org/elton), [Preston](https://preston.guoda.bio), a version of the [GIB](https://linker.bio/#use-case-3-studying-pine-pests-caused-by-weevils-curculionoidea) dataset, and workflows described in [Biodiversity Interaction Finder (BIF, pronounced Bifi)](https://github.com/big-bee-network/bif) and includes a manually curated list of terms used to describe species interactions in these datasets. 
 
 This is a work in progress.
 
