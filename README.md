@@ -15,6 +15,7 @@ José Augusto Salim et al. 2024. BIF Interaction Type Mappings https://github.co
 # Content 
 
  | name | description | content id 
+ | --- | --- | --- 
  | [```data/```](./data/) | versioned [Preston](https://preston.guoda.bio) package of this dataset | [hash://sha256/8ef13bf5d333445f94683a952fca2fe9e830af536898b0dfc99c73c634a98247](https://linker.bio/hash://sha256/8ef13bf5d333445f94683a952fca2fe9e830af536898b0dfc99c73c634a98247)
  | [interaction_types_mapping.csv](./interaction_types_mapping.csv) | latest version of mapping in comma-separated values | [hash://sha256/f0a0837ee4949eac8105bef40825afdfda4b12a84c09086f7c03783822e810e2](https://linker.bio/hash://sha256/f0a0837ee4949eac8105bef40825afdfda4b12a84c09086f7c03783822e810e2) 
  | [interaction_types_mapping.tsv](./interaction_types_mapping.tsv) | latest version of mapping in tab-separated values | [hash://sha256/a2538e6e3487cf2c16a032a5d03eb8b145b02ef85dc8ad2da2bbd1d22004ce70](https://linker.bio/hash://sha256/a2538e6e3487cf2c16a032a5d03eb8b145b02ef85dc8ad2da2bbd1d22004ce70) |
